@@ -7,10 +7,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     font-family: 'Nunito', sans-serif;
+    
 }
 
 .nav{
@@ -71,7 +73,7 @@ body{
 }
 
 .mapas{
-    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(img/6192215.jpg);
+    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(mapas.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -117,7 +119,7 @@ body{
 
 .agentes{
 
-    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(img/6192290.jpg);
+    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(agentes.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -155,7 +157,7 @@ body{
 }
 
 .armas{
-    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(img/VCT_DigitalGoods_Cover-Image-1-1.jpg);
+    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(armas.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
