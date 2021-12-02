@@ -73,7 +73,7 @@ body{
 }
 
 .mapas{
-    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(mapas.jpg);
+    background-image:  url(mapas.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -119,7 +119,7 @@ body{
 
 .agentes{
 
-    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(agentes.jpg);
+    background-image:  url(agentes.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -157,7 +157,7 @@ body{
 }
 
 .armas{
-    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(armas.jpg);
+    background-image:  url(armas.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
