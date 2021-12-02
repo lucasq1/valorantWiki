@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&family=Poppins:wght@300;400;500;700&display=swap');
+
+:root{
+    --height: 70px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav{
+    background:#ff4654;
+    height: var(--height);
+    
+    
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--height);
+    
+}
+
+.nav__container__logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.container__logo__img{
+    width: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+.container__logo__h2{
+    font-size: 2rem;
+    color: white;
+
+}
+
+
+.container__link{
+    text-decoration: none;
+    color: white;
+    margin-left: 2em;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.main{
+    
+}
+
+.mapas{
+    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(img/6192215.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.mapas__container{
+    display: flex;
+    align-items: center;
+}
+
+.mapas__texto{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+}
+
+
+.mapas__texto__h2{
+    font-size: 4rem;
+    color: white;
+}
+
+.mapas__texto__p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
+}
+
+.mapas__texto__btn{
+    background: #ff4654;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.agentes{
+
+    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(img/6192290.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.agentes__texto{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+}
+
+.agentes__texto__h2{
+    font-size: 4rem;
+    color: white;
+}
+
+.agentes__texto__p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
+}
+
+.agentes__texto__btn{
+    background: #ff4654;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.armas{
+    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(img/VCT_DigitalGoods_Cover-Image-1-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.armas__container{
+    display: flex;
+    align-items: center;
+}
+
+.armas__texto{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+}
+
+
+.armas__texto__h2{
+    font-size: 4rem;
+    color: white;
+}
+
+.armas__texto__p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
+}
+
+.armas__texto__btn{
+    background: #ff4654;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:540px) {
+    :root{
+        --height: 100px;
+    }
+
+    .nav__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
