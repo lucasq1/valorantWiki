@@ -267,6 +267,7 @@ body{
     padding: 25px;
     overflow: hidden;
     transition: 0.5s all;
+    background-attachment: fixed;
     
     
     
@@ -274,6 +275,7 @@ body{
 .map:hover{
     width: 500px;
     height: 350px;   
+    background-attachment: fixed;
 }
 
 .map h2{
@@ -305,6 +307,7 @@ body{
     color: white;
     border-radius: 8px;
 
+
 }
 
 .map:last-child{
@@ -313,49 +316,49 @@ body{
 
 .bind{
     background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(bind.jpg);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .ascent{
     background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(ascent.jpg);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .breeze{
     background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(breeze.jpg);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .fracture{
     background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(fracture.jpg);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .haven{
     background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(haven.jpg);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .icebox{
     background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(icebox.jpg);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .split{
-    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(split.jpeg);
-    background-position: center;
+    background-image: linear-gradient(to right, #272727b4 0%, rgba(0, 0, 0, 0.445) 100%), url(split.jpg);
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
